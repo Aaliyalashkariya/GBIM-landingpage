@@ -1,12 +1,14 @@
-# React + Vite
+# GBIM Landing Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern **landing page** built with **React.js** for GBIM, designed to showcase the creative process and company branding with a clean and visually appealing UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🧠 **Creative Process Section** — Highlights each step (Research → Goal) using sleek cards and icons
+- 🎨 **Gradient Text & Cards** — Visually engaging headings and cards with subtle hover effects
+- 📱 **Responsive Layout** — Optimized for desktops, tablets, and mobile devices
+- ⚛️ **React Functional Components** — Modular and easy to extend
+- 💡 **Minimal Design** — Clean typography, smooth spacing, and compact layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
