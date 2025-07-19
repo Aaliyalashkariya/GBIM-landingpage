@@ -1,0 +1,59 @@
+/* Scrolling Marquee Container */
+.tag-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* Track that scrolls */
+.marquee-track {
+  display: inline-flex;
+  gap: 30px;
+  animation: scroll-left 30s linear infinite;
+}
+
+.marquee-right .marquee-track {
+  animation: scroll-right 30s linear infinite;
+}
+
+/* Tag Styles */
+.tag-pill {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #f1f4f6;
+  font-weight: 600;
+  color: #1e2c3d;
+  font-size: 14px;
+  white-space: nowrap;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Left to Right */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Right to Left */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Optional responsiveness */
+@media (max-width: 600px) {
+  .tag-pill {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}

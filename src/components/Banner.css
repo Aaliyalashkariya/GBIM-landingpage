@@ -1,0 +1,57 @@
+.banner-section {
+  padding: 120px 0 150px;
+  color: #0b2135;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Floating icon wrapper */
+.floating-icons {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Individual icons */
+.floating-icons .icon {
+  width: 60px;
+  position: absolute;
+  opacity: 0.95;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+.icon1 { top: 40px; left: 5%; animation-delay: 0s; }
+.icon2 { top: 120px; right: 10%; animation-delay: 0.2s; }
+.icon3 { top: 180px; left: 20%; animation-delay: 0.4s; }
+.icon4 { top: 260px; right: 15%; animation-delay: 0.6s; }
+.icon5 { top: 340px; left: 50%; transform: translateX(-50%); animation-delay: 0.8s; }
+
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Stats Bar */
+.stats-bar {
+  background: linear-gradient(to right, #841010, #c03221);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 20px 30px;
+  max-width: 1000px;
+  margin: 40px auto 0;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.stat-item h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  font-size: 0.9rem;
+  margin: 0;
+}

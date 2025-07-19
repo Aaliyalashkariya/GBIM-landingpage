@@ -1,0 +1,93 @@
+/* Full background section */
+.showcase-section {
+  position: relative;
+  background: url('public/Images/Frame 1171277103.png') no-repeat right center;
+  background-size: contain;
+  background-color: #1a0d1f;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay for text readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(26, 13, 31, 0.95), rgba(26, 13, 31, 0.85));
+  z-index: 0;
+}
+
+/* Content above overlay */
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Headings */
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #c34fff;
+}
+
+
+.btn {
+  font-size: 0.9rem;
+  border-width: 2px;
+}
+
+
+.image-row {
+  overflow: hidden;
+  flex-wrap: nowrap !important;
+}
+
+/* Individual image card */
+.image-card {
+  flex: 0 0 auto;
+  width: 180px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .image-card {
+    width: 140px;
+  }
+}

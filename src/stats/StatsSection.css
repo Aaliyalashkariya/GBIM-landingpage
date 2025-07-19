@@ -1,0 +1,22 @@
+.stats-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.achievement .stat-icon {
+  font-size: 2rem;
+  background-color: #001933;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.stat-divider {
+  border-left: 1px solid #ccc;
+  height: 80px;
+  margin: auto;
+}

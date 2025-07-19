@@ -1,0 +1,23 @@
+.app-background {
+  background-image: url('/Image/banner2.png'); /* Place image in public/Image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/* Shrink navbar height and padding */
+.navbar {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* Reduce logo size */
+.navbar-brand img {
+  height: 24px;
+}
+
+/* Reduce spacing for nav links */
+.navbar-nav .nav-link {
+  padding: 0 8px;
+  font-size: 14px;
+}
+
